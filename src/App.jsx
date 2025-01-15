@@ -51,9 +51,9 @@ const App = () => {
     return null;
   }, [checkAuthUser]);
 
-  if (checkAuthUser.isLoading) {
-    return <HomeLoader />;
-  }
+  // if (checkAuthUser.isLoading) {
+  //   return <HomeLoader />;
+  // }
 
   return (
     <Layout>
